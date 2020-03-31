@@ -1,5 +1,5 @@
 function addToDo(toDO) {
-  list = document.getElementById("item");
+  list = document.getElementById("list");
   toDO = document.getElementById("input").value;
   item = ` <li class="item">
           <p class="text">${toDO}</p>
